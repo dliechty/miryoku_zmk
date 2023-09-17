@@ -1,14 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-// Uncomment the following lines to enable the Corne RGB Underglow
-CONFIG_ZMK_RGB_UNDERGLOW=y
-CONFIG_WS2812_STRIP=y
-CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=n
-
-// Uncomment the following line to enable the Corne OLED Display
-CONFIG_ZMK_DISPLAY=y
-
 / {
     behaviors {
 
