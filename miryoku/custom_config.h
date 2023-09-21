@@ -111,7 +111,7 @@
             hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
             //hold-trigger-on-release; // don't wait for other mods
             tapping-term-ms = <INDEX_TAPPING_TERM>;
-            quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat
+            //quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat
             //global-quick-tap; // no typing streak
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
@@ -123,7 +123,7 @@
             hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
             //hold-trigger-on-release; // don't wait for other mods
             tapping-term-ms = <INDEX_TAPPING_TERM>;
-            quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat
+            //quick-tap-ms = <KEY_REPEATING_TERM>; // enable repeat
             //global-quick-tap; // no typing streak
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
