@@ -6,7 +6,7 @@
 
         #define TYPING_STREAK_TERM 160 // global-quick-tap-ms
         #define KEY_REPEATING_TERM 300 // "tap then hold" for key auto-repeat
-        #define HOMEY_TAPPING_TERM 260 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER
+        #define HOMEY_TAPPING_TERM 200 // TAPPING_TERM + ALLOW_CROSSOVER_AFTER
         #define INDEX_TAPPING_TERM 180
         #define THUMB_TAPPING_TERM 200
 
