@@ -47,7 +47,7 @@
         // sent immediately without the rest of your multi-mod chord when you
         // perform outward rolls from your index fingers toward your pinkies.
         //
-        #define INDEX_TAPPING_TERM 160
+        #define INDEX_TAPPING_TERM 180
         //
         // THUMB_TAPPING_TERM defines how long you need to hold (milliseconds)
         // a thumb key to activate a layer.  Shorter holds are treated as taps.
@@ -107,7 +107,7 @@
         index_left: miryoku_home_row_mods_left_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW_MODS_LEFT_INDEX_SHIFT";
-            flavor = "tap-preferred";
+            flavor = "balanced";
             hold-trigger-key-positions = <RIGHT_HAND_KEYS THUMB_KEYS>;
             //hold-trigger-on-release; // don't wait for other mods
             tapping-term-ms = <INDEX_TAPPING_TERM>;
@@ -119,7 +119,7 @@
         index_right: miryoku_home_row_mods_right_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW_MODS_RIGHT_INDEX_SHIFT";
-            flavor = "tap-preferred";
+            flavor = "balanced";
             hold-trigger-key-positions = <LEFT_HAND_KEYS THUMB_KEYS>;
             //hold-trigger-on-release; // don't wait for other mods
             tapping-term-ms = <INDEX_TAPPING_TERM>;
@@ -153,9 +153,9 @@
 
 #define THMB(MOD, TAP) &thumb MOD TAP
 
-//#define MIRYOKU_LAYER_BASE \
-//&kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
-//HMY_L(LGUI, A),    HMY_L(LALT, R),    HMY_L(LCTRL, S),   IND_L(LSHFT, T),   &kp G,             &kp M,             IND_R(LSHFT, N),   HMY_R(LCTRL, E),   HMY_R(LALT, I),    HMY_R(LGUI, O),       \
-//U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-//U_NP,              U_NP,              THMB(U_MEDIA, ESC),THMB(U_NAV, SPACE),THMB(U_MOUSE, TAB),THMB(U_SYM, RET),  THMB(U_NUM, BSPC), THMB(U_FUN, DEL),  U_NP,              U_NP
+#define MIRYOKU_LAYER_BASE \
+&kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
+HMY_L(LGUI, A),    HMY_L(LALT, R),    HMY_L(LCTRL, S),   IND_L(LSHFT, T),   &kp G,             &kp M,             IND_R(LSHFT, N),   HMY_R(LCTRL, E),   HMY_R(LALT, I),    HMY_R(LGUI, O),       \
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
+U_NP,              U_NP,              THMB(U_MEDIA, ESC),THMB(U_NAV, SPACE),THMB(U_MOUSE, TAB),THMB(U_SYM, RET),  THMB(U_NUM, BSPC), THMB(U_FUN, DEL),  U_NP,              U_NP
 
