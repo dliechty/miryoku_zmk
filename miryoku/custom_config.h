@@ -47,7 +47,7 @@
         // sent immediately without the rest of your multi-mod chord when you
         // perform outward rolls from your index fingers toward your pinkies.
         //
-        #define INDEX_TAPPING_TERM 180
+        #define INDEX_TAPPING_TERM 160
         //
         // THUMB_TAPPING_TERM defines how long you need to hold (milliseconds)
         // a thumb key to activate a layer.  Shorter holds are treated as taps.
@@ -145,7 +145,7 @@
     };
 };
 
-#define HMY_L(MOD, TAP) &index_left MOD TAP
+#define IND_L(MOD, TAP) &index_left MOD TAP
 #define IND_R(MOD, TAP) &index_right MOD TAP
 
 #define HMY_L(MOD, TAP) &homey_left MOD TAP
@@ -155,7 +155,7 @@
 
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
-HMY_L(LGUI, A),    HMY_L(LALT, R),    HMY_L(LCTRL, S),   HMY_L(LSHFT, T),   &kp G,             &kp M,             HMY_R(LSHFT, N),   HMY_R(LCTRL, E),   HMY_R(LALT, I),    HMY_R(LGUI, O),       \
+HMY_L(LGUI, A),    HMY_L(LALT, R),    HMY_L(LCTRL, S),   IND_L(LSHFT, T),   &kp G,             &kp M,             IND_R(LSHFT, N),   HMY_R(LCTRL, E),   HMY_R(LALT, I),    HMY_R(LGUI, O),       \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              THMB(U_MEDIA, ESC),THMB(U_NAV, SPACE),THMB(U_MOUSE, TAB),THMB(U_SYM, RET),  THMB(U_NUM, BSPC), THMB(U_FUN, DEL),  U_NP,              U_NP
 
