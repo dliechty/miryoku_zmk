@@ -47,7 +47,7 @@
         // sent immediately without the rest of your multi-mod chord when you
         // perform outward rolls from your index fingers toward your pinkies.
         //
-        #define INDEX_TAPPING_TERM 180
+        #define INDEX_TAPPING_TERM 280
         //
         // THUMB_TAPPING_TERM defines how long you need to hold (milliseconds)
         // a thumb key to activate a layer.  Shorter holds are treated as taps.
