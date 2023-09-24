@@ -118,5 +118,5 @@
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,              \
 HMY_L(LGUI, A),    HMY_L(LALT, R),    HMY_L(LCTRL, S),   IND_L(LSHFT, T),   &kp G,             &kp M,             IND_R(LSHFT, N),   HMY_R(LCTRL, E),   HMY_R(LALT, I),    HMY_R(LGUI, O),       \
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
-U_NP,              U_NP,              THMB(U_MEDIA, ESC),THMB(U_NAV, SPACE),THMB(U_MOUSE, TAB),THMB(U_SYM, RET),  THMB(U_NUM, BSPC), THMB(U_FUN, DEL),  U_NP,              U_NP
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),THMB(U_NAV, SPACE),THMB(U_MOUSE, TAB),THMB(U_SYM, RET),  THMB(U_NUM, BSPC), THMB(U_FUN, DEL),  U_NP,              U_NP
 
